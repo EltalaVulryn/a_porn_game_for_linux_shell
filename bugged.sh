@@ -10,11 +10,11 @@ if [[ $zen == "y" ]]; then
 	echo "*debugger*"
 else
 	echo  "** debugger ** "
-read Gano
+read gano
 
 	exit 1
 
-if [[ $zen == "y" ]]; then
+if [[ $gano == "y" ]]; then
 	echo " ** debugger ** "
 else
 	echo " **debugger** "
