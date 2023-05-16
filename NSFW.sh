@@ -14,6 +14,8 @@ else
 
 fi
 
+	exit 1
+
 sleep 2
 
 echo "*she would lead you to a room, and once you walk in, she closes the door,* would you like to help me remove my clothes~? (Y/n)"
