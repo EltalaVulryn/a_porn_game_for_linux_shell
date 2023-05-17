@@ -1,3 +1,5 @@
+chmod +x ./pussy
+chmod +x ./uninstall
 cp ./pussy /usr/bin/pussy
 mkdir /Games/eroticnight~
 cp ./NSFW.py /Games/eroticnight~/NSFW.py
