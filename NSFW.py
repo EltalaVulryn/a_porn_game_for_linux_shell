@@ -1,8 +1,14 @@
-action = input("hello there handsom~ would you like to have some fun with me~?		y/n:")
-
 y = 'y'
 
 n = 'n'
+
+option1 = '1'
+
+option2 = '2'
+
+option3 = '3'
+
+action = input("hello there handsom~ would you like to have some fun with me~?		y/n:")
 
 if  n == action: 
 	print("okay...")
@@ -28,6 +34,17 @@ else:
 				action4A = input("which option?//")
 				if n == action4A:
 					print("*her eyes widen in surprise, closing her eyes*")
+					print("*you then begin to get erect*")
+					print("1:*begin to lift one of her legs, putting your tip on her entrance*")
+					print("2:*gently pushes her onto the bed*")
+					print("3:*you gently guide her against the wall, with a smirk*")
+					action4AA = input("select either option")
+					if option1 == action4AA:
+						print("*her entrance was wet, and she lets out a soft moan, then pulls away* what are you gonna do~?")
+					if option2 == action4AA:
+						print("*soft thud when she lands on the bed* rawr~ *spreads her legs out*")
+					if option3 == action4AA:
+						print("oh my~ i never done it like this before~")
 				else:
 					print("you have to sit down first dear~")
 					print("*you do so, on a chair, and she walks upto you, and begins to do a lap dance*")
@@ -46,4 +63,9 @@ else:
 			print("Or")
 			print("n:*once she takes off her panties, you lick her neck lewdly*")
 			action5 = input("which option?//")
+			if n == action5:
+				print("how lewd of you~")
+				print("come on and fuck me already~")
+			else:
+				print("*soft thud when she lands on the bed* rawr~ *spreads her legs out*")
 print("WARNING!!! INCOMPLETE!")
