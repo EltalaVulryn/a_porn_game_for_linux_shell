@@ -8,12 +8,18 @@ option2 = '2'
 
 option3 = '3'
 
-action = input("hello there handsom~ would you like to have some fun with me~?		y/n:")
+player = 'You'
 
+women = input('name the female actrist: ')
+
+print(women + ": hello there handsom~ would you like to have some fun with me~?")
+print(player + ": y : are you suggesting something~?")
+print(player + ": n : no... go fuck someone else...")
+action = input("which option?:")
 if  n == action: 
-	print("okay...")
+	print(women + ": aww... worth the shot...")
 else:
-	action2 = input("would you like to follow me to my room~?	y/n:")
+	action2 = input(women + ": would you like to follow me to my room~?	y/n:")
 	if n == action2:
 		print("i understand you changed your mind...")
 	else:
@@ -38,9 +44,18 @@ else:
 					print("1:*begin to lift one of her legs, putting your tip on her entrance*")
 					print("2:*gently pushes her onto the bed*")
 					print("3:*you gently guide her against the wall, with a smirk*")
+					print("MAKE SURE YOU SELECT THE RIGHT ONE OR IF YOU DONT DO ONE OF THE OPTIONS BUT ANOTHER KEY IT WILL EXIT THE GAME!!!")
 					action4AA = input("select either option")
 					if option1 == action4AA:
 						print("*her entrance was wet, and she lets out a soft moan, then pulls away* what are you gonna do~?")
+						print("y: some teasing~ *you gently start probing her*")
+						print("Or")
+						print("n:*with out a word, you hold her other leg, and in response she wraps her arms around you, and you push her your penis deep into her*")
+						action4AB = input("which option?:")
+						if n == action4AB:
+							print("AHN~! *you grunt a little due to how tight she is*")
+						else:
+							print("mmm~ oh~ just the spot~")
 					if option2 == action4AA:
 						print("*soft thud when she lands on the bed* rawr~ *spreads her legs out*")
 					if option3 == action4AA:
