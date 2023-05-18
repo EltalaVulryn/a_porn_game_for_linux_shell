@@ -18,6 +18,8 @@ bed = 20
 
 cum = 30
 
+pregnant = False
+
 subprocess.run('clear')
 
 player = input('name here: ')
@@ -74,23 +76,24 @@ else:
 						if n == action:
 							print(women + ": AHN~! *you grunt a little due to how tight she is*")
 							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', './animations/rbutter.sh'])
+							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
 							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', './animations/rbutter.sh'])
+							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
 							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', './animations/rbutter.sh'])
+							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
 							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', './animations/rbutter.sh'])
+							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
 							print("oh " + player + "!")
 							action = input("do you want to cum in her? y/n")
 							if action == n:
 								print(player + ": *after railing her a couple times in this postion, you put her into the bed*")
 							else:
 								if fert >= 80:
-									subprocess.run(['bash', './animations/rbutterp.sh'])
+									subprocess.run(['bash', '/Games/eroticnight~/animations/rbutterp.sh'])
 									print("you just imprenganted " + women + "!")
 									print(player + ": *after railing her a couple times in this postion, you put her into the bed*")
 									fert = 0
+									pregnant = True
 								else:
 									fert = random.randint(1, 100)
 							bed = 78
@@ -177,10 +180,18 @@ else:
 					cum = 40
 				if cum == 40:
 					if fert >= 80:
-						subprocess.run(['bash', './animations/cump.sh'])
+						subprocess.run(['bash', '/Games/eroticnight~/animations/cump.sh'])
 						print("you just impregnanted " + women + "!")
+						pregnant = True
 					else:
-						subprocess.run(['bash', './animations/cum.sh'])
+						subprocess.run(['bash', '/Games/eroticnight~/animations/cum.sh'])
 				print("mhp~!")
 				print(women + ": *looks blistful* you might have a kid...")
+				subprocess.run(['sleep', '2'])
+if pregnant == True:
+	print("9 months later")
+	print("*you would be in her home, on the couch, and you get a call from " + women + "*")
+	print("*you pick it up and awnser it")
+	print(player + ": hello?")
+	print(women + ": hi... its me " + women + "... and... when we had that one night 9 months ago... you got me pregnant... and... i called you to tell you... that i had your baby...")
 print("WARNING!!! INCOMPLETE!")
