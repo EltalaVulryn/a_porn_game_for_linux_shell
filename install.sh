@@ -16,7 +16,8 @@ if [[ $install == 'y' ]]; then
 	cp -r ./animations /Games/eroticnight~/animations
         cp ./animations/cum.sh /Games/eroticnight~/animations/cum.sh
 	cp ./animations/cump.sh /Games/eroticnight~/animations/cump.sh
-	cp ./animations/rbutter.sh /Games/eroticnight~/animations/rubutter.sh
+	cp ./animations/rbutter.sh /Games/eroticnight~/animations/r
+	butter.sh
 	cp ./animations/rbutterp.sh /Games/eroticnight~/animations/rbutterp.sh 
 	echo "completed"
 else
