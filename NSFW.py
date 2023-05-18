@@ -2,7 +2,12 @@ import subprocess
 
 import random
 
+always_get_pregnant = input("press enter to begin playing: ")
+
 fert = random.randint(1, 100)
+
+if 'True' == always_get_pregnant:
+	fert = 100
 
 y = 'y'
 
@@ -86,16 +91,16 @@ else:
 							print("oh " + player + "!")
 							action = input("do you want to cum in her? y/n")
 							if action == n:
-								print(player + ": *after railing her a couple times in this postion, you put her into the bed*")
+								print("*you pull out and cum onto her vagiina*")
 							else:
 								if fert >= 80:
 									subprocess.run(['bash', '/Games/eroticnight~/animations/rbutterp.sh'])
 									print("you just imprenganted " + women + "!")
-									print(player + ": *after railing her a couple times in this postion, you put her into the bed*")
 									fert = 0
 									pregnant = True
 								else:
 									fert = random.randint(1, 100)
+							print(player + ": *after railing her a couple times in this postion, you put her into the bed*")
 							bed = 78
 					if option2 == action:
 						
@@ -174,6 +179,8 @@ else:
 								print(women + ": no~? fine~ have you fun sweatheart~")
 								input("press enter to cum in " + women)
 								cum = 40
+							else:
+								cum = 40
 					else:
 						cum = 40
 				else:
@@ -193,5 +200,5 @@ if pregnant == True:
 	print("*you would be in her home, on the couch, and you get a call from " + women + "*")
 	print("*you pick it up and awnser it")
 	print(player + ": hello?")
-	print(women + ": hi... its me " + women + "... and... when we had that one night 9 months ago... you got me pregnant... and... i called you to tell you... that i had your baby...")
+	print(women + ": Hey, it's me " + women + ". Remember some months back? Well you did end up getting me pregnant and I've had the baby…just thought I'd let you know.")
 print("WARNING!!! INCOMPLETE!")
