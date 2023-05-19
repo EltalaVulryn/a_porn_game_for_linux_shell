@@ -1,3 +1,7 @@
+configeration = {
+	'silent_imprengations': False,
+}
+
 import subprocess
 
 import random
@@ -6,7 +10,7 @@ always_get_pregnant = input("press enter to begin playing: ")
 
 fert = random.randint(1, 100)
 
-if 'True' == always_get_pregnant:
+if 'agp' == always_get_pregnant:
 	fert = 100
 
 y = 'y'
@@ -80,24 +84,19 @@ else:
 						action = input("which option?: ")
 						if n == action:
 							print(women + ": AHN~! *you grunt a little due to how tight she is*")
-							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
-							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
-							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
-							subprocess.run(['sleep', '1'])
-							subprocess.run(['bash', '/Games/eroticnight~/animations/rbutter.sh'])
+							subprocess.run(['bash', '/Games/eroticnight~/assets/repeatrbut.sh'])
 							print("oh " + player + "!")
 							action = input("do you want to cum in her? y/n")
 							if action == n:
-								print("*you pull out and cum onto her vagiina*")
+								print("*you pull out and cum onto her vagiia*")
 							else:
 								if fert >= 80:
-									subprocess.run(['bash', '/Games/eroticnight~/animations/rbutterp.sh'])
-									print("you just imprenganted " + women + "!")
+									if configeration["silent_imprengations"] == False:
+										subprocess.run(['bash', '/Games/eroticnight~/animations/rbutterp.sh'])
+										print("you just imprenganted " + women + "!")
 									fert = 0
 									pregnant = True
+									
 								else:
 									fert = random.randint(1, 100)
 							print(player + ": *after railing her a couple times in this postion, you put her into the bed*")
@@ -129,6 +128,10 @@ else:
 			if n == action:
 				print(women + ": how lewd of you~")
 				print(women + ": come on and fuck me already~")
+				print("do you pin her to the wall? y")
+				print("or")
+				print("do you start to rub your penis on her vagina? n")
+				action = input("which option?")
 			else:
 				bed = 78
 	if bed == 78:
@@ -187,9 +190,12 @@ else:
 					cum = 40
 				if cum == 40:
 					if fert >= 80:
-						subprocess.run(['bash', '/Games/eroticnight~/animations/cump.sh'])
-						print("you just impregnanted " + women + "!")
+						if configeration["silent_imprengations"] == False:
+							subprocess.run(['bash', '/Games/eroticnight~/animations/cump.sh'])
+							print("you just impregnanted " + women + "!")
 						pregnant = True
+						if configeration["silent_imprengations"] == True:
+							subprocess.run(['bash', '/Games/eroticnight~/animations/cum.sh'])
 					else:
 						subprocess.run(['bash', '/Games/eroticnight~/animations/cum.sh'])
 				print("mhp~!")
